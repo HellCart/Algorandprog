@@ -27,3 +27,5 @@ def create_reading(reading: ReadingCreate, db: Session = Depends(get_db)):
     db.refresh(db_reading)
 
     return db_reading
+
+#Не отклоняй пжпжпжпж
